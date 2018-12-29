@@ -46,16 +46,26 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
         </dependency> -->
-        <dependency>
+
+
+<!--     delete   <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-core</artifactId>
+        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.3.2</version>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.1.1.RELEASE</version>
+
         </dependency>
 
 
